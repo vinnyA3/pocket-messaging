@@ -1,0 +1,1 @@
+This is a rather simple, yet fun messaging app. It allows you to enter your name, and a message to post to the application.  Your username, message, and the time of entry is then outputed in the application.  The information is saved in a SQL database as well. 
