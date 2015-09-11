@@ -1,0 +1,108 @@
+*{
+	margin:  0;
+	padding:  0;
+}
+
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.5em;
+	background: rgb(194, 195, 196);
+	
+}
+#container{
+	background: rgb(77, 18, 237);
+	margin: 0 auto;
+	overflow: auto;
+	width: 40%;
+	min-height: 600px;
+	border-radius: 3px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 59, 0.75);
+        -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 59, 0.75);
+         box-shadow: 7px 7px 5px 0px rgba(50, 50, 59, 0.75);
+         
+         background: rgb(77, 18, 237);
+background: -moz-linear-gradient(30deg, rgb(77, 18, 237) 30%, rgb(0, 0, 70) 75%);
+background: -webkit-linear-gradient(30deg, rgb(77, 18, 237) 30%, rgb(0, 0, 70) 75%);
+background: -o-linear-gradient(30deg, rgb(77, 18, 237) 30%, rgb(0, 0, 70) 75%);
+background: -ms-linear-gradient(30deg, rgb(77, 18, 237) 30%, rgb(0, 0, 70) 75%);
+background: linear-gradient(120deg, rgb(77, 18, 237) 30%, rgb(0, 0, 70) 75%);
+
+	
+}
+header h1{
+        font-family: 'Chewy', cursive;
+	color : #ffffff;
+	font-size: 22px;
+	padding: 15px 0 10px 10px;
+	border-bottom: 1px solid white;
+	letter-spacing: .1em;
+}
+
+b{
+  font-family: 'Chewy', cursive;
+  color: white;
+  letter-spacing:.1em;
+}
+#shouts{
+	width: 90%;
+	background: #f4f4f4;
+	height: 400px;
+	margin: 20px auto 20px auto;
+	overflow: auto;
+}
+.shout{
+	list-style: none;
+	padding: 8px;
+	border-bottom: 1px #cccccc dotted;
+	
+}
+.shout span{
+	color: #aaaaaa;
+	
+}
+#input{
+	width: 90%;
+	min-height: 80px;
+	margin: auto;
+	padding: 0;
+}
+
+#input input[type='text']{
+	height: 25px;
+	width: 48%;
+	padding: 3px;
+	margin-bottom: 20px;
+	border: 1px solid #666666;
+	
+}
+
+#input .shout-btn{
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 100%;
+	margin: 10px auto 10px auto;
+	font-family: 'Chewy', cursive;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: .1em;
+	
+}
+.input-box{
+	margin-left: 1em;
+}
+@media only screen and (max-width: 768px){
+	#input input[type='text']{
+		width: 98%;
+	}
+}
+.error{
+	background: #F79696;
+	color:#931717;
+	font-weight: bold;
+	border-radius: 3px;
+	width: 100%;
+	padding: 2px;
+	margin-bottom: 3px;
+	text-align: center;
+}
